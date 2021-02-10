@@ -12,12 +12,14 @@ const Navbar = () => {
 
   return (
     <>
-      <IconContext.Provider value={{ color: 'yellow' }}>
+      <IconContext.Provider value={{ color: 'aqua' }}>
         <div className='navbar'>
           <Link to='#' className='menu-bars'>
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
+          <h1 className='header'>APPLICATION NAME</h1>
         </div>
+
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
           <ul className='nav-click-items' onClick={showSidebar}>
             <li className='navbar-toggle'>
