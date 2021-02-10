@@ -1,10 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Lato&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Pacifico:regular);
+@import url(https://fonts.googleapis.com/css?family=Do+Hyeon:regular);
+@import url(https://fonts.googleapis.com/css?family=Parisienne:regular);
+@import url(https://fonts.googleapis.com/css?family=Concert+One:regular);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
+  font-family:'Poppins', 'Concert One', 'Parisienne', 'Do Hyeon', 'Pacifico', 'Josefin Sans','Titillium Web','Lato', sans-serif;
+}
+
+body {
+  background-color:indianred
 }
 
 .header {
@@ -27,5 +39,5 @@
   height: 90vh;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 5rem;
 }
